@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome Screenshot Saver",
+    "version": "1.0",
+    "description": "Capture and save screenshots locally without network interaction.",
+    "permissions": ["activeTab", "downloads", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    }
+  }
+  
